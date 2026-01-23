@@ -77,3 +77,20 @@ head(pedidos_entregues)
 # 2️⃣ Passo 2 - Amostragem por aleatoriedade
 
 #### Considerando o tamanho elevado da base de dados, foi selecionada uma amostra aleatória simples com tamanho suficiente (n = 5000) para garantir estabilidade das estimativas e viabilizar a aplicação dos métodos inferenciais, conforme o Teorema Central do Limite.
+
+```R 
+# Fixando a semente 
+
+set.seed(123)
+
+# Tamanho da amostra 
+
+n = 5000
+
+# Amostragem aleatória simples
+
+amostra_pedidos_entregues <- pedidos_entregues[
+  sample(seq_len(nrow(pedidos_entregues)), size = n, replace = FALSE),
+]
+
+```
