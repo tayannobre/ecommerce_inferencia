@@ -93,3 +93,5 @@ amostra_pedidos_entregues = pedidos_entregues[
   sample(seq_len(nrow(pedidos_entregues)), size = n, replace = FALSE),]
 
 ```
+
+# 3️⃣ Passo 3 - Análise descritiva da variável `tempo_entrega`
