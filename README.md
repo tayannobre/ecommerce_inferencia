@@ -9,6 +9,8 @@ utilizando dados reais da Olist.
 # Objetivo
 
 Analisar, por meio de técnicas de inferência estatística, o tempo médio de entrega de pedidos de e-commerce no Brasil, utilizando dados reais da Olist referentes a pedidos efetivamente entregues.
+
+
 --- 
 
 # 🗂️ Dados
