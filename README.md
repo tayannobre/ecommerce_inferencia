@@ -90,7 +90,6 @@ n = 5000
 # 2.3 - Amostragem aleatória simples
 
 amostra_pedidos_entregues = pedidos_entregues[
-  sample(seq_len(nrow(pedidos_entregues)), size = n, replace = FALSE),
-]
+  sample(seq_len(nrow(pedidos_entregues)), size = n, replace = FALSE),]
 
 ```
