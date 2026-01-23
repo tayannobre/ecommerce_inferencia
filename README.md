@@ -36,6 +36,9 @@ Analisar, por meio de técnicas de inferência estatística, o tempo médio de e
 pedidos_entregues = olist_orders_dataset %>%
   filter(order_status == "delivered")
 
-# 1.2 - Visualizando as 10 primeiras linhas do dataset
+# 1.2 - Visualizando as 5 primeiras linhas do dataset
 
 View(pedidos_entregues)
+
+```
+
