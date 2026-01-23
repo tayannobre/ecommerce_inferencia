@@ -89,7 +89,7 @@ n = 5000
 
 # Amostragem aleatória simples
 
-amostra_pedidos_entregues <- pedidos_entregues[
+amostra_pedidos_entregues = pedidos_entregues[
   sample(seq_len(nrow(pedidos_entregues)), size = n, replace = FALSE),
 ]
 
