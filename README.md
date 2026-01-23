@@ -49,7 +49,7 @@ View(pedidos_entregues)
 | 4 | 949d5b44dbf5de918fe9c16f97b45f8a | f88197465ea7920adcdbec7375364d82 | delivered | 2017-11-18 19:28:06 | 2017-11-18 19:45:59 | 2017-11-22 13:39:59 | 2017-12-02 00:28:42 | 2017-12-15 |
 | 5 | ad21c59c0840e6cb83a9ceb5573f8159 | 8ab97904e6daea8866dbdbc4fb7aad2c | delivered | 2018-02-13 21:18:39 | 2018-02-13 22:20:29 | 2018-02-14 19:46:34 | 2018-02-16 18:17:02 | 2018-02-26 |
 
-``` 
+```R
 #1.3 - Criando a variável tempo de entrega (em dias)
 
 pedidos_entregues$tempo_entrega = as.numeric(
