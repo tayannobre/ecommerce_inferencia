@@ -98,11 +98,11 @@ amostra_pedidos_entregues = pedidos_entregues[
 
 ```R 
 
-#3.1 - Medidas resumo da variável
+# 3.1 - Medidas resumo da variável
 
 summary(amostra_pedidos_entregues$tempo_entrega)
 
-#3.1.1 - Desvio padrão e variância da variável tempo de entrega
+# 3.1.1 - Desvio padrão e variância da variável tempo de entrega
 
 # Desvio Padrão 
 
