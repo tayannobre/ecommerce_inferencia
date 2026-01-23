@@ -14,6 +14,6 @@ Analisar, por meio de técnicas de inferência estatística, o tempo médio de e
 --- 
 
 # 🗂️ Dados
-- Fonte: Olist (dados públicos)
+- Fonte: 
 - Conjunto: `orders`
 - Amostragem aleatória simples (n = 5.000)
