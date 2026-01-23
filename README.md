@@ -1,2 +1,1 @@
-# ecommerce_inferencia
-Estimar o tempo médio de entrega por meio de inferência estatística.
+# Inferência estatística sobre o tempo médio de entrega em pedidos de e-commerce no Brasil
