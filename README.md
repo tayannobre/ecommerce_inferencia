@@ -60,7 +60,7 @@ pedidos_entregues$tempo_entrega = as.numeric(
   )
 )
 
-#1.4 Visualizando as 5 primeiras `linhas` do dataset com a variável tempo de entrega criada
+#1.4 Visualizando as 5 primeiras linhas do dataset com a variável tempo de entrega criada
 
 head(pedidos_entregues)
 
