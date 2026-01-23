@@ -28,4 +28,4 @@ Analisar, por meio de técnicas de inferência estatística, o tempo médio de e
 
 # ✅ Passo 1 — Construir a variável tempo de entrega, em dias, a partir das datas de compra e entrega dos pedidos.
 
-#### Foram considerados apenas pedidos com status delivered, uma vez que apenas nesses casos o tempo de entrega é observável. Pedidos com status shipped, invoiced e unavailable foram excluídos da análise.
+### Importante ressaltar que foi usado na análise apenas os pedidos com status deliverid, uma vez que apenas nesses casos o tempo de entrega é observável. Pedidos com status shipped, invoiced e unavailable foram excluídos da análise.
