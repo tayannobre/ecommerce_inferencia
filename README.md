@@ -79,15 +79,15 @@ head(pedidos_entregues)
 #### Considerando o tamanho elevado da base de dados, foi selecionada uma amostra aleatória simples com tamanho suficiente (n = 5000) para garantir estabilidade das estimativas e viabilizar a aplicação dos métodos inferenciais, conforme o Teorema Central do Limite.
 
 ```R 
-# Fixando a semente 
+# 2.1 - Fixando a semente 
 
 set.seed(123)
 
-# Tamanho da amostra 
+# 2.2 - Tamanho da amostra 
 
 n = 5000
 
-# Amostragem aleatória simples
+# 2.3 - Amostragem aleatória simples
 
 amostra_pedidos_entregues = pedidos_entregues[
   sample(seq_len(nrow(pedidos_entregues)), size = n, replace = FALSE),
