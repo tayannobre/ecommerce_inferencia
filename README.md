@@ -25,3 +25,6 @@ Analisar, por meio de técnicas de inferência estatística, o tempo médio de e
 - Fonte: 
 - Conjunto: `orders`
 - Amostragem aleatória simples (n = 5.000)
+
+# ✅ Passo 1 — Construir a variável tempo de entrega, em dias, a partir das datas de compra e entrega dos pedidos.
+
