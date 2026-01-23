@@ -30,7 +30,7 @@ Analisar, por meio de técnicas de inferência estatística, o tempo médio de e
 
 #### Importante ressaltar que foi usado na análise apenas os pedidos com status deliverid, uma vez que apenas nesses casos o tempo de entrega pode ser observado. Pedidos com status shipped, invoiced, unavailable etc foram excluídos da observação.
 
-``` 
+```R
 # 1.1 - Filtrando apenas os pedidos com status delivered:
 
 pedidos_entregues = olist_orders_dataset %>%
