@@ -51,7 +51,7 @@ View(pedidos_entregues)
 | 6 | a4591c265e18cb1dcee52889e2d8acc3 | 503740e9ca751ccdda7ba28e9ab8f608 | delivered | 2017-07-09 21:57:05 | 2017-07-09 22:10:13 | 2017-07-11 14:58:04 | 2017-07-26 10:57:55 | 2017-08-01
 
 ``` 
-#1.3 - Criando a variável tempo de entrega (em dias)
+#1.3 - Criando a variável `tempo_entrega` (em dias)
 
 pedidos_entregues$tempo_entrega = as.numeric(
   difftime(
@@ -61,3 +61,4 @@ pedidos_entregues$tempo_entrega = as.numeric(
   )
 )
 
+#1.4 Visualizando as 5 primeiras linhas do dataset com a variável `tempo_entrega` criada
