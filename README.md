@@ -10,6 +10,14 @@ utilizando dados reais da Olist.
 
 Analisar, por meio de técnicas de inferência estatística, o tempo médio de entrega de pedidos de e-commerce no Brasil, utilizando dados reais da Olist referentes a pedidos efetivamente entregues.
 
+### 🎯 Objetivos específicos: 
+
+Construir a variável tempo de entrega, em dias, a partir das datas de compra e entrega dos pedidos.
+Realizar uma análise descritiva do tempo de entrega.
+Estimar o tempo médio de entrega por meio de intervalos de confiança.
+Testar hipóteses sobre a média populacional do tempo de entrega.
+Avaliar a adequação dos pressupostos inferenciais, com base em análise gráfica e no Teorema Central do Limite.
+Interpretar os resultados sob a ótica logística, discutindo implicações práticas.
 
 --- 
 
