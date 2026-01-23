@@ -95,3 +95,18 @@ amostra_pedidos_entregues = pedidos_entregues[
 ```
 
 # 3️⃣ Passo 3 - Análise descritiva da variável `tempo_entrega`
+
+```R 
+
+#3.1 - Medidas resumo da variável
+
+summary(amostra_pedidos_entregues$tempo_entrega)
+
+#3.1.1 - Desvio padrão e variância da variável tempo de entrega
+
+# Desvio Padrão 
+
+sd(amostra_pedidos_entregues$tempo_entrega)
+# Variância 
+
+var(amostra_pedidos_entregues$tempo_entrega)
