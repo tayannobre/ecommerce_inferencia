@@ -107,6 +107,9 @@ summary(amostra_pedidos_entregues$tempo_entrega)
 # Desvio Padrão 
 
 sd(amostra_pedidos_entregues$tempo_entrega)
+
 # Variância 
 
 var(amostra_pedidos_entregues$tempo_entrega)
+
+```
