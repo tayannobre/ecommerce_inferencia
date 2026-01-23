@@ -49,3 +49,15 @@ View(pedidos_entregues)
 | 4 | 949d5b44dbf5de918fe9c16f97b45f8a | f88197465ea7920adcdbec7375364d82 | delivered | 2017-11-18 19:28:06 | 2017-11-18 19:45:59 | 2017-11-22 13:39:59 | 2017-12-02 00:28:42 | 2017-12-15 |
 | 5 | ad21c59c0840e6cb83a9ceb5573f8159 | 8ab97904e6daea8866dbdbc4fb7aad2c | delivered | 2018-02-13 21:18:39 | 2018-02-13 22:20:29 | 2018-02-14 19:46:34 | 2018-02-16 18:17:02 | 2018-02-26 |
 | 6 | a4591c265e18cb1dcee52889e2d8acc3 | 503740e9ca751ccdda7ba28e9ab8f608 | delivered | 2017-07-09 21:57:05 | 2017-07-09 22:10:13 | 2017-07-11 14:58:04 | 2017-07-26 10:57:55 | 2017-08-01
+
+``` 
+#1.3 - Criando a variável tempo de entrega (em dias)
+
+pedidos_entregues$tempo_entrega = as.numeric(
+  difftime(
+    pedidos_entregues$order_delivered_customer_date,
+    pedidos_entregues$order_purchase_timestamp,
+    units = "days"
+  )
+)
+
