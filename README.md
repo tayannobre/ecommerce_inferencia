@@ -124,3 +124,6 @@ var(amostra_pedidos_entregues$tempo_entrega)
 | Máximo            | 182.6581 |
 | Desvio-padrão     | 9.6977   |
 | Variância         | 94.0446  |
+
+
+# 4️⃣ Passo 4 - Estimar o tempo médio de entrega por meio de intervalos de confiança.
