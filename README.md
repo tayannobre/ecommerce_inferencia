@@ -113,7 +113,7 @@ sd(amostra_pedidos_entregues$tempo_entrega)
 var(amostra_pedidos_entregues$tempo_entrega)
 
 ```
-## Estatística Descritiva da variável `tempo_entrega`
+## Medidas Descritivas da variável `tempo_entrega`
 | Medida            | Valor    |
 |-------------------|----------|
 | Mínimo            | 0.8908   |
