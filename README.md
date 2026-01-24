@@ -113,3 +113,14 @@ sd(amostra_pedidos_entregues$tempo_entrega)
 var(amostra_pedidos_entregues$tempo_entrega)
 
 ```
+
+| Medida            | Valor    |
+|-------------------|----------|
+| Mínimo            | 0.8908   |
+| 1º Quartil (Q1)   | 6.8602   |
+| Mediana           | 10.3555  |
+| Média             | 12.6524  |
+| 3º Quartil (Q3)   | 15.5935  |
+| Máximo            | 182.6581 |
+| Desvio-padrão     | 9.6977   |
+| Variância         | 94.0446  |
