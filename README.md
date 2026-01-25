@@ -34,8 +34,9 @@ Analisar, por meio de técnicas de inferência estatística, o tempo médio de e
 
 # 1.1 - Importado o dataset
 
-# Carregando a biblioteca necessária 
+# Carregando as bibliotecas necessárias 
 
+library(dplyr)
 library(readr)
 
 # Armazenando o dataset no objeto pedidos_olist
