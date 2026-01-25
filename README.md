@@ -62,7 +62,22 @@ View(pedidos_entregues)
 | 5 | ad21c59c0840e6cb83a9ceb5573f8159 | 8ab97904e6daea8866dbdbc4fb7aad2c | delivered | 2018-02-13 21:18:39 | 2018-02-13 22:20:29 | 2018-02-14 19:46:34 | 2018-02-16 18:17:02 | 2018-02-26 |
 
 ```R
-#1.3 - Criando a variável tempo de entrega (em dias)
+
+# 1.3 Convertendo as datas
+
+pedidos_entregues$order_purchase_timestamp = as.POSIXct(
+  pedidos_entregues$order_purchase_timestamp,
+  format = "%Y-%m-%d %H:%M:%S",
+  tz = "UTC"
+)
+
+pedidos_entregues$order_delivered_customer_date = as.POSIXct(
+  pedidos_entregues$order_delivered_customer_date,
+  format = "%Y-%m-%d %H:%M:%S",
+  tz = "UTC"
+)
+
+#1.4 - Criando a variável tempo de entrega (em dias)
 
 pedidos_entregues$tempo_entrega = as.numeric(
   difftime(
@@ -72,7 +87,7 @@ pedidos_entregues$tempo_entrega = as.numeric(
   )
 )
 
-#1.4 Visualizando as 5 primeiras linhas do dataset com a variável tempo de entrega criada
+#1.5 Visualizando as 5 primeiras linhas do dataset com a variável tempo de entrega criada
 
 head(pedidos_entregues)
 
