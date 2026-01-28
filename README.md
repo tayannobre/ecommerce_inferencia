@@ -1,4 +1,4 @@
-# 📦 Inferência estatística sobre o tempo médio de entrega em pedidos de e-commerce no Brasil
+o# 📦 Inferência estatística sobre o tempo médio de entrega em pedidos de e-commerce no Brasil
 
 Análise inferencial do tempo de entrega de pedidos de e-commerce no Brasil,
 utilizando dados reais da Olist.
@@ -153,8 +153,8 @@ var(amostra_pedidos_entregues$tempo_entrega)
 | Variância         | 94.0446  |
 
 ### Observações:
-- Média > mediana: distribuição assimétrica a direita
-- Máximo muito alto: possíveis falhas logísticas
+- Média > mediana: distribuição assimétrica a direita.
+- Máximo muito alto: possíveis falhas logísticas, dificuldades de acesso, distância geográfica, pedido extraviado etc.
 
 ## Visualização da distribuição através de histograma e boxplot
 
