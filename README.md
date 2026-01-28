@@ -152,5 +152,11 @@ var(amostra_pedidos_entregues$tempo_entrega)
 | Desvio-padrão     | 9.6977   |
 | Variância         | 94.0446  |
 
+### Observações:
+- Média > mediana: distribuição assimétrica a direita
+- Máximo muito alto: possíveis falhas logísticas
+
+## Visualização da distribuição através de histograma e boxplot
+
 
 # 4️⃣ Passo 4 - Estimar o tempo médio de entrega por meio de intervalos de confiança.
