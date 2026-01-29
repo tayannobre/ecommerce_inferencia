@@ -158,7 +158,7 @@ var(amostra_pedidos_entregues$tempo_entrega)
 
 ## Visualização da distribuição através de histograma e boxplot
 !['Histogramas da variável tempo_entrega'](histogramas.png)
-- Através dos histogramas é possível concluir que a observação segue uma distribuição assimétrica a direita (atrasos longos)
+- Os histogramas evidenciam uma distribuição assimétrica à direita do tempo de entrega, característica comum em processos logísticos, indicando a ocorrência de atrasos longos.
 
 ---
  
