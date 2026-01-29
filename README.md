@@ -157,6 +157,7 @@ var(amostra_pedidos_entregues$tempo_entrega)
 - Máximo muito alto: possíveis falhas logísticas, dificuldades de acesso, distância geográfica, pedido extraviado etc.
 
 ## Visualização da distribuição através de histograma e boxplot
-
+!["Histogramas da variável tempo_entrega"](histogramas.png)
+!["Box plot da variável tempo_entrega"](boxplot.png)
 
 # 4️⃣ Passo 4 - Estimar o tempo médio de entrega por meio de intervalos de confiança.
