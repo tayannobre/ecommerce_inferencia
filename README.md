@@ -158,7 +158,10 @@ var(amostra_pedidos_entregues$tempo_entrega)
 
 ## Visualização da distribuição através de histograma e boxplot
 !["Histogramas da variável tempo_entrega"](histogramas.png)
-- Através dos histogramas é possível verificar que a distribuição é assimétrica a direita 
+- Através dos histogramas é possível concluir que a observação segue uma distribuição assimétrica a direita
+
+---
+ 
 !["Box plot da variável tempo_entrega"](boxplot.png)
 
 # 4️⃣ Passo 4 - Estimar o tempo médio de entrega por meio de intervalos de confiança.
