@@ -157,7 +157,7 @@ var(amostra_pedidos_entregues$tempo_entrega)
 - Máximo muito alto: possíveis falhas logísticas, dificuldades de acesso, distância geográfica, pedido extraviado etc.
 
 ## Visualização da distribuição através de histograma e boxplot
-!['Histogramas da variável tempo_entrega'](histogramas.png)
+![Histogramas da variável tempo de entrega](histogramas.png)
 - Os histogramas evidenciam uma distribuição assimétrica à direita do tempo de entrega, característica comum em processos logísticos, indicando a ocorrência de atrasos longos.
 
 ---
