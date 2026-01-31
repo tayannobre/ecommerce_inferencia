@@ -165,3 +165,20 @@ var(amostra_pedidos_entregues$tempo_entrega)
 - Observa-se a presença de outliers no limite superior do gráfico, evidenciando pedidos com longos atrasos.
 
 # 4️⃣ Passo 4 - Estimar o tempo médio de entrega por meio de intervalos de confiança.
+
+```R
+
+x_barra = mean(amostra_pedidos_entregues$tempo_entrega)
+s = sd(amostra_pedidos_entregues$tempo_entrega)
+n = length(amostra_pedidos_entregues$tempo_entrega)
+
+erro_padrao = s / sqrt(n)
+t_critico = qt(0.975, df = n - 1)
+
+IC <- c(
+  x_bar - t_critico * erro_padrao,
+  x_bar + t_critico * erro_padrao)
+
+IC
+
+```
