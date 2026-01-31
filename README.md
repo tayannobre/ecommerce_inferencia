@@ -23,6 +23,7 @@ Analisar, por meio de técnicas de inferência estatística, o tempo médio de e
 - Fonte: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?resource=download&select=olist_orders_dataset.csv
 - Conjunto: `orders`
 - Amostragem aleatória simples (n = 5.000)
+- Código do Projeto: 
 
 # 1️⃣ Passo 1 — Construir a variável tempo de entrega, em dias, a partir das datas de compra e entrega dos pedidos.
 
