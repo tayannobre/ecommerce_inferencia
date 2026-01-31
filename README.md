@@ -183,4 +183,5 @@ IC
 
 ```
 
-- IC 95% para a média do tempo de entrega: (12.38 ; 12.92) dias
+- IC 95% para a média do tempo de entrega: (12.38 ; 12.92) dias;
+- O IC indica que a média populacional do tempo de entrega está entre 12,38 e 12,92 dias, baseando-se em 95% de confiança.
