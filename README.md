@@ -162,5 +162,6 @@ var(amostra_pedidos_entregues$tempo_entrega)
 ---
  
 !["Box plot da variável tempo_entrega"](boxplot.png)
+- Observa-se a presença de outliers no limite superior do gráfico, evidenciando pedidos com longos atrasos.
 
 # 4️⃣ Passo 4 - Estimar o tempo médio de entrega por meio de intervalos de confiança.
