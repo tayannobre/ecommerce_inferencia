@@ -192,7 +192,20 @@ histograma_1 | histograma_2
 ![Histogramas da variável tempo de entrega](histogramas.png)
 - Observa-se a existência de uma cauda longa à direita, indicando que uma parcela dos pedidos enfrenta atrasos significativos, o que pode impactar negativamente a percepção de qualidade do serviço logístico.
 ---
- 
+
+```R
+# Box Plot
+  
+ggplot(amostra_pedidos_entregues, aes(x = "", y = tempo_entrega)) +
+  geom_boxplot() +
+  coord_flip() +
+  labs(
+    title = "Distribuição do Tempo de Entrega",
+    y = "Tempo de Entrega",
+    x = ""
+    ) +
+  theme_minimal()
+```
 !["Box plot da variável tempo_entrega"](boxplot.png)
 - Observa-se a presença de outliers no limite superior do gráfico, evidenciando pedidos com longos atrasos.
 
