@@ -16,7 +16,7 @@ Analisar, por meio de técnicas de inferência estatística, o tempo médio de e
 - Realizar uma análise descritiva do tempo de entrega.
 - Estimar o tempo médio de entrega por meio de intervalos de confiança.
 - Testar hipóteses sobre a média populacional do tempo de entrega.
-- Conclusão.
+- Conclusão do Projeto.
 --- 
 
 # 🗂️ Dados
@@ -233,7 +233,7 @@ IC
 - Com 95% de confiança o IC indica que a média populacional do tempo de entrega está entre 12.38 e 12.92 dias;
 - Embora existam pedidos individuais com tempos de entrega bastante elevados, inclusive superiores a 100 dias, isso não contradiz os limites do intervalo de confiança, uma vez que este se refere exclusivamente à média populacional do tempo de entrega e não aos valores individuais da variável.
 
-# 5️⃣ Passo 5 - Conclusão.
+# 5️⃣ Passo 5 - Conclusão do Projeto.
 
 Este projeto teve como objetivo analisar o tempo de entrega de pedidos, utilizando inferência estatística aplicadas a dados reais. A partir do conjunto de dados `orders`, realizou-se inicialmente o tratamento dos dados, incluindo a seleção de pedidos entregues, a verificação de valores ausentes e a criação da variável tempo de entrega, calculada como a diferença entre a data de compra e a data de entrega ao cliente.
 
