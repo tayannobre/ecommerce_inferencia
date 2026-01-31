@@ -188,4 +188,10 @@ IC
 
 # 5️⃣ Passo 5 - Conclusão.
 
-Este projeto teve como objetivo analisar o tempo de entrega de pedidos entregues no contexto logístico, utilizando técnicas de inferência estatística aplicadas a dados reais. A partir do conjunto de dados `orders`, realizou-se inicialmente o tratamento dos dados, incluindo a seleção de pedidos entregues, a verificação de valores ausentes e a criação da variável tempo de entrega, calculada como a diferença entre a data de compra e a data de entrega ao cliente.
+Este projeto teve como objetivo analisar o tempo de entrega de pedidos, utilizando inferência estatística aplicadas a dados reais. A partir do conjunto de dados `orders`, realizou-se inicialmente o tratamento dos dados, incluindo a seleção de pedidos entregues, a verificação de valores ausentes e a criação da variável tempo de entrega, calculada como a diferença entre a data de compra e a data de entrega ao cliente.
+
+Com o intuito de garantir a validade dos procedimentos inferenciais, foi realizada uma análise exploratória dos dados por meio de gráficos descritivos, como histogramas e boxplot. Observou-se a presença de assimetria à direita e valores extremos.
+
+A inferência estatística foi conduzida por meio da estimação de um intervalo de confiança de 95% para a média populacional do tempo de entrega, o qual resultou em um intervalo aproximadamente entre 12.38 e 12.92 dias.
+
+Os resultados sugerem que o desempenho médio de entrega é satisfatório, embora a presença de uma cauda longa na distribuição do tempo de entrega indique a existência de uma pequena parcela de pedidos com atrasos expressivos, os quais podem impactar negativamente a percepção do nível de serviço. Dessa forma, a análise evidencia a importância de se monitorar não apenas a média dos prazos de entrega, mas também a variabilidade e os casos extremos, a fim de aprimorar a eficiência e a confiabilidade do processo logístico.
