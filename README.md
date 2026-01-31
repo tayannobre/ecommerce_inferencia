@@ -168,7 +168,7 @@ var(amostra_pedidos_entregues$tempo_entrega)
 
 ```R
 
-#4.1 Intervalo de Confiança para a média 
+# 4.1 Intervalo de Confiança para a média 
 
 x_barra = mean(amostra_pedidos_entregues$tempo_entrega)
 s = sd(amostra_pedidos_entregues$tempo_entrega)
@@ -178,8 +178,8 @@ erro_padrao = s / sqrt(n)
 t_critico = qt(0.975, df = n - 1)
 
 IC <- c(
-  x_bar - t_critico * erro_padrao,
-  x_bar + t_critico * erro_padrao)
+  x_barra - t_critico * erro_padrao,
+  x_barra + t_critico * erro_padrao)
 
 IC
 
