@@ -20,7 +20,7 @@ Analisar, por meio de técnicas de inferência estatística, o tempo médio de e
 --- 
 
 # 🗂️ Dados
-- Fonte: 
+- Fonte: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?resource=download&select=olist_orders_dataset.csv
 - Conjunto: `orders`
 - Amostragem aleatória simples (n = 5.000)
 
