@@ -155,6 +155,40 @@ var(amostra_pedidos_entregues$tempo_entrega)
 - Máximo muito alto: possíveis falhas logísticas, dificuldades de acesso, distância geográfica, pedido extraviado etc.
 
 ## Visualização da distribuição através de histograma e boxplot
+```R
+# Instalando e carregando as bibliotecas necessarias para plotar os gráficos
+
+install.packages("patchwork")
+library(patchwork)
+install.packages("ggplot2")
+library(ggplot2)
+
+# Histograma 1
+
+histograma_1 = ggplot(amostra_pedidos_entregues, aes(x = tempo_entrega)) +
+  geom_histogram(bins = 30) +
+  labs(
+    tittle = "Dostribuição do Tempo de Entrega",
+    x = "Tempo de Entrega (em dias)",
+    y = "Frequência"
+  )
+  theme_minimal()
+
+# Histograma 2
+  
+histograma_2 = ggplot(amostra_pedidos_entregues, aes(x = tempo_entrega)) + 
+  geom_histogram(aes(y = ..density..), bins = 30) +
+  geom_density() + 
+  labs(
+    tittle = "Dostribuição do Tempo de Entrega",
+    x = "Tempo de Entrega (em dias)",
+    y = "Densidade"
+  )
+theme_minimal()
+
+histograma_1 | histograma_2
+
+```
 ![Histogramas da variável tempo de entrega](histogramas.png)
 - Observa-se a existência de uma cauda longa à direita, indicando que uma parcela dos pedidos enfrenta atrasos significativos, o que pode impactar negativamente a percepção de qualidade do serviço logístico.
 ---
