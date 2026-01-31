@@ -182,3 +182,5 @@ IC <- c(
 IC
 
 ```
+
+- IC 95% para a média do tempo de entrega: (12.38 ; 12.92) dias
