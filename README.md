@@ -185,4 +185,5 @@ IC
 
 ```
 
-- Com 95% de confiança o IC indica que a média populacional do tempo de entrega está entre 12.38 e 12.92 dias.
+- Com 95% de confiança o IC indica que a média populacional do tempo de entrega está entre 12.38 e 12.92 dias;
+- Embora existam pedidos individuais com tempos de entrega bastante elevados, inclusive superiores a 100 dias, isso não contradiz os limites do intervalo de confiança, uma vez que este se refere exclusivamente à média populacional do tempo de entrega e não aos valores individuais da variável. 
