@@ -168,6 +168,8 @@ var(amostra_pedidos_entregues$tempo_entrega)
 
 ```R
 
+#4.1 Intervalo de Confiança para a média 
+
 x_barra = mean(amostra_pedidos_entregues$tempo_entrega)
 s = sd(amostra_pedidos_entregues$tempo_entrega)
 n = length(amostra_pedidos_entregues$tempo_entrega)
